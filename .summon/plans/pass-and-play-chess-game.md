@@ -1,5 +1,5 @@
 ---
-status: pending
+status: implemented
 title: Pass-and-Play Chess Game with Wooden Board
 ---
 

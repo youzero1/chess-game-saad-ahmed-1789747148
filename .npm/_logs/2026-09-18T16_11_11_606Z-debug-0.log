@@ -1,0 +1,24 @@
+0 verbose cli /.sprite/languages/node/nvm/versions/node/v24.18.0/bin/node /.sprite/languages/node/nvm/versions/node/v24.18.0/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@12.0.1
+2 info using node@v24.18.0
+3 silly config load:file:/.sprite/languages/node/nvm/versions/node/v24.18.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/sprite/.npmrc
+5 silly config load:file:/.sprite/languages/node/nvm/versions/node/v24.18.0/etc/npmrc
+6 verbose title npm exec tsx scripts/enginetest.ts
+7 verbose argv "exec" "--" "tsx" "scripts/enginetest.ts"
+8 verbose logfile logs-max:10 dir:/home/sprite/.npm/_logs/2026-09-18T16_11_11_606Z-
+9 verbose logfile /home/sprite/.npm/_logs/2026-09-18T16_11_11_606Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+12 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+13 http fetch GET 200 https://registry.npmjs.org/tsx 134ms (cache revalidated)
+14 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+15 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+16 notice run app@0.0.0 npx
+17 notice run 'tsx' scripts/enginetest.ts
+18 verbose cwd /home/sprite
+19 verbose os Linux 6.12.91-fly
+20 verbose node v24.18.0
+21 verbose npm  v12.0.1
+22 verbose exit 0
+23 info ok
