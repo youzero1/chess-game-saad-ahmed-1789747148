@@ -14,7 +14,7 @@ function ChessPage() {
   return (
     <main className="flex flex-1 flex-col items-center gap-4 px-3 py-5 sm:gap-5 sm:py-8">
       <h1 className="text-center text-xl font-semibold tracking-wide text-lime-100 sm:text-2xl">
-        Pass &amp; Play Chess
+        Saad Chess
       </h1>
 
       <GameStatusBar state={game.state} onNewGame={game.newGame} />
