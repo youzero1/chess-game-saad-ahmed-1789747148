@@ -13,7 +13,7 @@ function ChessPage() {
 
   return (
     <main className="flex flex-1 flex-col items-center gap-4 px-3 py-5 sm:gap-5 sm:py-8">
-      <h1 className="text-center text-xl font-semibold tracking-wide text-amber-100 sm:text-2xl">
+      <h1 className="text-center text-xl font-semibold tracking-wide text-lime-100 sm:text-2xl">
         Pass &amp; Play Chess
       </h1>
 
@@ -29,7 +29,7 @@ function ChessPage() {
         onSelect={game.selectSquare}
       />
 
-      <p className="max-w-md text-center text-xs text-amber-100/60">
+      <p className="max-w-md text-center text-xs text-lime-100/60">
         Tap a piece to see its legal moves, then tap a highlighted square to move.
       </p>
 

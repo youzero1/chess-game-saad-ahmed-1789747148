@@ -26,7 +26,7 @@ export function Square({
   disabled,
   onSelect,
 }: SquareProps) {
-  const base = isLight ? 'bg-wood-light' : 'bg-wood-dark';
+  const base = isLight ? 'bg-board-light' : 'bg-board-dark';
   const interactive = !disabled && (isLegalTarget || piece !== null);
 
   const label = `${square}${piece ? `, ${pieceName(piece)}` : ', empty'}${
@@ -44,8 +44,8 @@ export function Square({
         interactive ? 'cursor-pointer' : 'cursor-default'
       }`}
     >
-      {isLastMove && <span className="absolute inset-0 bg-lastmove/30" aria-hidden="true" />}
-      {isSelected && <span className="absolute inset-0 bg-highlight/45" aria-hidden="true" />}
+      {isLastMove && <span className="absolute inset-0 bg-lastmove/40" aria-hidden="true" />}
+      {isSelected && <span className="absolute inset-0 bg-highlight/55" aria-hidden="true" />}
       {isCheckedKing && (
         <span
           className="absolute inset-0 bg-red-500/50 shadow-[inset_0_0_1.2rem_rgba(220,38,38,0.9)]"

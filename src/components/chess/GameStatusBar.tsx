@@ -29,13 +29,13 @@ export function GameStatusBar({ state, onNewGame }: GameStatusBarProps) {
           <span
             aria-hidden="true"
             className={`h-4 w-4 rounded-full ring-1 ring-black/40 ${
-              state.sideToMove === 'w' ? 'bg-amber-50' : 'bg-neutral-900'
+              state.sideToMove === 'w' ? 'bg-lime-50' : 'bg-neutral-900'
             }`}
           />
         )}
         <span
           className={`text-sm font-medium sm:text-base ${
-            state.status === 'check' ? 'text-red-300' : 'text-amber-50'
+            state.status === 'check' ? 'text-red-300' : 'text-lime-50'
           }`}
         >
           {describe(state)}
@@ -45,7 +45,7 @@ export function GameStatusBar({ state, onNewGame }: GameStatusBarProps) {
         type="button"
         onClick={onNewGame}
         aria-label="Start a new game"
-        className="rounded-lg bg-amber-200 px-4 py-2 text-sm font-semibold text-stone-900 transition-colors hover:bg-amber-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-300 motion-reduce:transition-none"
+        className="rounded-lg bg-lime-300 px-4 py-2 text-sm font-semibold text-emerald-950 transition-colors hover:bg-lime-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-300 motion-reduce:transition-none"
       >
         New Game
       </button>
