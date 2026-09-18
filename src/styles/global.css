@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-wood-light: #eadbc0;
+  --color-wood-dark: #a9784f;
+  --color-wood-frame: #56341c;
+  --color-wood-frame-edge: #3a2210;
+  --color-board-page: #241a12;
+  --color-highlight: #6fd36f;
+  --color-lastmove: #d7c04a;
+}
